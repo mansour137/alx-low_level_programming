@@ -1,8 +1,13 @@
 #include <stdio.h>
-/*
- * main function it's a program that print the line by using put function
+
+/**
+ * main - Entry point
+ * Return: Always return 0 (Success)
  */
-int main(void){
+
+int main(void)
+{
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
+
