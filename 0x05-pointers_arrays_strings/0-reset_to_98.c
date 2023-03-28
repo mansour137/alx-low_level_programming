@@ -1,10 +1,11 @@
 /**
- * reset_to_98 takes ptr and upt value of ptr
+ * reset_to_98 - takes pointer and updates value of pointer
+ * @n: pointer to integer
  *
- * Return: nothing.
+ * Return: void
  */
-
-void reset_to_98(int *n) 
-{ 
-        *n = 98;
+void reset_to_98(int *n)
+{
+	*n = 98;
 }
+
